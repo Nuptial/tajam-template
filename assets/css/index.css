@@ -206,30 +206,35 @@ body {
 
 /* Section expertise start */
 
-.section-expertise {
+.section-expertise,
+.section-team {
     display: flex;
     flex-direction: column;
     padding: 50px 0px;
 }
 
-.section-expertise-top {
+.section-expertise-top,
+.section-team-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.section-expertise-title {
+.section-expertise-title,
+.section-team-title {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0px;
 }
 
-.section-expertise-subtitle {
+.section-expertise-subtitle,
+.section-team-subtitle {
     font-size: 14px;
 }
 
-.section-expertise .line {
+.section-expertise .line,
+.section-team .line {
     background: #ccc;
 }
 
@@ -269,7 +274,8 @@ body {
 .section-expertise-category-title {
     text-align: center;
     font-weight: bold;
-    height:35px;
+    height: 35px;
+    font-size: 18px;
 }
 
 .section-expertise-category-description {
@@ -278,3 +284,121 @@ body {
 }
 
 /* Section expertise end */
+
+/* Section Team Start */
+
+.section-team {
+    background: url(../images/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 670px;
+}
+
+.section-team .section-team-top,
+.section-team-description {
+    color: white;
+}
+
+.section-team-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-team-member {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-team-member-name {
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.section-team-member-position {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.section-team-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Section Team End */
+
+/* Section Work Start */
+
+.section-works {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-works-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+}
+
+.section-works-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.section-works-description {
+    cursor: pointer;
+}
+
+.section-works-second {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-works-items {
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-works-item {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.section-works-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom:20px;
+}
+
+/* Section Work End */
+
+/* Section Testimonials Start */
+
+.section-testimonials {
+    background: url(../images/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 670px;
+}
+
+/* Section Testimonials End */
