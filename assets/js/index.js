@@ -1,5 +1,10 @@
+var videoEndCallback = function (e) {
+    $('.section-about-video-overlay,.section-about-video-play-icon,.section-about-video-title').show();
+}
+
 $(document).ready(function () {
     $('.slider-header').bxSlider();
+
     $('.section-about-video').click(function () {
         var myVideo = document.getElementById("section-about-video-elem");
 
@@ -12,4 +17,6 @@ $(document).ready(function () {
         }
 
     });
+
+    document.getElementById('section-about-video-elem').addEventListener('ended', videoEndCallback, false);
 });

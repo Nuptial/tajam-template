@@ -175,6 +175,8 @@ body {
 #section-about-video-elem {
     width: 100%;
     cursor: pointer;
+    max-height: 670px;
+    object-fit: fill;
 }
 
 .section-about-video-overlay {
