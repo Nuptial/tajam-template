@@ -168,4 +168,44 @@ body {
     max-width: 150px;
 }
 
+.section-about-video {
+    position: relative;
+}
+
+#section-about-video-elem {
+    width: 100%;
+    cursor: pointer;
+}
+
+.section-about-video-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(60, 45, 98, .85);
+    cursor: pointer;
+}
+
+.section-about-video-play-icon {
+    background: url(../images/video-play-icon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.section-about-video-title {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: white;
+}
+
 /* Section about end */
