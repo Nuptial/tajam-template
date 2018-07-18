@@ -4,3 +4,11 @@
     margin-right: auto !important;
     margin-left: auto !important;
 }
+
+.line {
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    background: #00e0d0;
+    margin: 20px 0px;
+}
