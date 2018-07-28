@@ -39,6 +39,12 @@ var navListItemsActions = function () {
             scrollTop: $(".section-testimonials").offset().top
         }, 1000);
     });
+
+    $('.right-nav-list-item:eq(6)').click(function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".section-contact-us").offset().top
+        }, 1000);
+    });
 };
 
 var initializeSliders = function () {

@@ -499,3 +499,193 @@ body {
 }
 
 /* Section Testimonials End */
+
+/* Section Contact Us Start */
+
+.section-contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact-us-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact-us-left * {
+    margin: 15px 0px;
+}
+
+.section-contact-us-left input {
+    height: 50px;
+}
+
+.section-contact-us-left textarea {
+    resize: none;
+}
+
+.section-contact-us-left .slider-header-item-button {
+    max-width: 100px;
+}
+
+.section-contact-us-right-clients {
+    background: url(../images/clients.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 409px;
+}
+
+.section-contact-us-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.section-contact-us-right * {
+    margin: 15px 0px;
+}
+
+.section-contact-us-right-title {
+    width: 423px;
+}
+
+.section-contact-us-left-title,
+.section-contact-us-right-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 40px 0px;
+}
+
+/* Section Contact Us End */
+
+/* Footer Start */
+
+.footer {
+    background: url(../images/footerbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-tajam-logo {
+    background: url(../images/navlogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50px;
+    width: 128px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer-left-description {
+    color: white;
+    margin: 15px 0px;
+    font-size: 16px;
+}
+
+.footer-left-options {
+    display: flex;
+    margin-top: 40px;
+}
+
+.footer-left-options * {
+    margin: 0px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer-middle div {
+    margin: 20px 10px
+}
+
+.footer-middle-title {
+    font-size: 24px;
+    color: white;
+}
+
+.agency-adress {
+    max-width: 300px;
+    color: white;
+    height: 72px;
+}
+
+.agency-adress img {
+    margin-right: 10px;
+}
+
+.agency-phone {
+    color: white;
+}
+
+.agency-phone img {
+    margin-right: 10px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer-right-title {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-right input {
+    width: 211px;
+    height: 45px;
+    background: transparent;
+    color: white;
+}
+
+.footer-right input::placeholder {
+    color: white;
+}
+
+.footer-right-subscribe {
+    display: flex;
+    height:72px;
+}
+
+.footer-sent-icon {
+    background: url(../images/footer/btn.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 45px;
+    width: 70px;
+    margin-left:10px;
+    margin-top:3px;
+    cursor:pointer;
+}
+
+.footer-right > div {
+    margin:20px 10px;
+}
+
+.footer-social-media-icons {
+    background: url(../images/footer/socialmedias.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 35px;
+    width: 251px;
+    cursor:pointer;
+}
+
+/* Footer End */
